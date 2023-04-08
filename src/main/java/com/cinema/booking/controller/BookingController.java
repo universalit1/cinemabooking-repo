@@ -13,7 +13,7 @@ public class BookingController {
    // @RequestMapping(path="/tickets", method = RequestMethod.POST)
     @PostMapping(path="/tickets")
     public Ticket addTicket(@RequestBody Ticket ticket){
-        System.out.println("controller called");
+        System.out.println("controller called successfuly");
         ticketList.add(ticket);
         return  ticket;
     }
