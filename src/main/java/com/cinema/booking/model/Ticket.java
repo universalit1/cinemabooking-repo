@@ -13,4 +13,5 @@ public class Ticket {
     private  String movieName;
     private  float price;
     private String cinemaHall;
+    //docker run -p 5000:5000 in28min/todo-rest-api-h2:1.0.0.RELEASE
 }
